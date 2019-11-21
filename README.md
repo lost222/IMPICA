@@ -29,7 +29,16 @@ If using Ubuntu, the dependecies are
 sudo apt-get install libncurses5-dev gcc make git exuberant-ctags bc libssl-dev python-dev scons m4 build-essential g++ swig zlib-dev
 ```
 
+**also need**
+
+~~~sh
+sudo apt-get google-perftools libgoogle-perftools-dev
+~~~
+
 ## Build the simulator and driver
+
+need 8GB memory at least
+
 
 ```
 cd gem5
